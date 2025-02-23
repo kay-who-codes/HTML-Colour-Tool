@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎨 HTML Color Tool</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+<!-- Header Bar -->
+<div id="header"></div>
+
+<!-- Main Content -->
+  <div class="container">
+    <h1>HTML Colour Tool</h1>
+    <div class="color-square" id="colorSquare"></div>
+    <h2>Select a Colour</h2>
+    <input type="color" id="colorPicker" value="#fd0000">
+    <div class="color-formats">
+      <div class="format">
+        <label>HEX</label>
+        <input type="text" id="hex" readonly>
+        <button class="copy-btn" data-clipboard-target="#hex">Copy HEX</button>
+      </div>
+      <div class="format">
+        <label>RGB</label>
+        <input type="text" id="rgb" readonly>
+        <button class="copy-btn" data-clipboard-target="#rgb">Copy RGB</button>
+      </div>
+      <div class="format">
+        <label>HSL</label>
+        <input type="text" id="hsl" readonly>
+        <button class="copy-btn" data-clipboard-target="#hsl">Copy HSL</button>
+      </div>
+      <div class="format">
+        <label>CMYK</label>
+        <input type="text" id="cmyk" readonly>
+        <button class="copy-btn" data-clipboard-target="#cmyk">Copy CMYK</button>
+      </div>
+    </div>
+    <!-- In-Browser Notification -->
+    <div id="notification" class="notification">Copied to clipboard!</div>
+  </div>
+  <div id="footer"></div>
+  <script src="js/script.js"></script>
+  <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>
