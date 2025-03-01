@@ -1,4 +1,4 @@
-# HTML Colour Tool
+# 🎨 HTML Colour Tool
 
 A simple and intuitive web-based tool for developers to pick colors and get their corresponding HEX, RGB, HSL, and CMYK values. Perfect for quick color conversions and copying color codes to your clipboard.
 
