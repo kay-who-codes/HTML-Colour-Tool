@@ -2,7 +2,7 @@
 
 A simple and intuitive web-based tool for developers to pick colors and get their corresponding HEX, RGB, HSL, and CMYK values. Perfect for quick color conversions and copying color codes to your clipboard.
 
-[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/html-colour-tool)
+[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/HTML-Colour-Tool)
 
 ## Features
 
@@ -13,7 +13,7 @@ A simple and intuitive web-based tool for developers to pick colors and get thei
 
 ## Usage
 
-1. Open the app in a browser - **[LINK TO THE APP](https://kay-who-codes.github.io/html-colour-tool)**.
+1. Open the app in a browser - **[LINK TO THE APP](https://kay-who-codes.github.io/HTML-Colour-Tool)**.
 2. Use the color picker to select a color.
 3. View the corresponding HEX, RGB, HSL, and CMYK values in real-time.
 4. Click the "Copy" button next to any format to copy the value to your clipboard.
